@@ -50,6 +50,5 @@ namespace ScreenSaver.Constants
         /// Максимальное значение прозрачности
         /// </summary>
         public const float MaxAlpha = 1.0f;
-
     }
 }

@@ -43,6 +43,9 @@ namespace ScreenSaver.Models
             X += MathF.Sin(Y * 0.05f + swayOffset) * 0.35f;
         }
 
+        /// <summary>
+        /// Установка значений для снежинки, скорость, прозрачность, координаты
+        /// </summary>
         public void Reset(int startPosition)
         {
             Y = -Random.Shared.Next(AppConstants.MinStartY, AppConstants.MaxStartY);
